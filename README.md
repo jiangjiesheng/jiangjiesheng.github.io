@@ -48,6 +48,8 @@
 ```
     git push origin master 
     git push mirror master
+    或者 
+    git push mirror master && git push origin master
 ```
 #### 三、效果展示：
 > Git仓库地址：
