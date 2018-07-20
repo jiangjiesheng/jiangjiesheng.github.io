@@ -1,3 +1,4 @@
+#### 
 #### 一、搭建Git个人主页：
 
 > Github上创建项目的名称为 jiangjiesheng.github.io 
@@ -8,7 +9,7 @@
 
 >     （如果是预览某个项目的线上效果，只需要设置pages页就可以）
 
-    Gitee码云和GitHub对比：
+######Gitee码云和GitHub对比：
 - 1、码云可以免费设置项目为私有项目，不被公开；GitHub若设置私有项目，则需要收费。
 （码云中的项目设置为私有时，主页仍然可以访问）
 - 2、码云服务器在国内，响应速度快；Github在国外，访问速度实测非常慢，且不稳定。
@@ -19,7 +20,7 @@
 > Git项目目录下有个隐藏的.git 文件夹，其中有个config文件，使用编辑器打开
 
         [remote] 节点表示远程仓库，默认有个origin仓库地址，
-	    新增一个[remote] ，并指定名称为“mirror”，作为镜像仓库。
+	    新增一个[remote] ，并指定名称为"mirror"，作为镜像仓库。
 	
 	    ([branch ]为分页节点，这里可以忽略)
 	
@@ -36,19 +37,19 @@
 	    merge = refs/heads/master
 ```
 
-    **pull拉取操作**
+**pull拉取操作**
 > 分别从两个远程仓库pull：
 ```
     git pull origin master 
     git pull mirror master
 ```
-    **push提交操作**
+**push提交操作**
 > 分别push到两个远程仓库：
 ```
     git push origin master 
     git push mirror master
 ```
-####三、效果展示：
+#### 三、效果展示：
 > Git仓库地址：
 
 - Gitee 码云： [https://gitee.com/jiangjiesheng/jiangjiesheng](https://gitee.com/jiangjiesheng/jiangjiesheng "Gitee 码云")
