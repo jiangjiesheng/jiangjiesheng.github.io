@@ -1,4 +1,4 @@
-#### 
+### Git-在GitHub或码云上搭建预览项目或个人主页-Git同时提交到多个远程仓库
 #### 一、搭建Git个人主页：
 
 > Github上创建项目的名称为 jiangjiesheng.github.io 
@@ -58,4 +58,4 @@
 - Gitee码云Pages主页：  [https://jiangjiesheng.gitee.io](https://jiangjiesheng.gitee.io "Gitee码云Pages主页")   (响应快)
 - GitHub Pages主页： [https://jiangjiesheng.github.io](https://jiangjiesheng.github.io "GitHub Pages主页")    (响应慢)
 
-- 个人网站： [http://www.jiangjiesheng.com](http://www.jiangjiesheng.com "个人网站")
+- [Git-在GitHub或码云上搭建预览项目或个人主页-Git同时提交到多个远程仓库](http://www.jiangjiesheng.com/weball/185.html "个人网站地址")
