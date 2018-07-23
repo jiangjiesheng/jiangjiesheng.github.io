@@ -1093,3 +1093,8 @@ h3.title {
 
 }
 /*--//responsive-design---*/
+
+/*20180723 补充*/
+.text-indent{
+	text-indent: 2em;
+}
