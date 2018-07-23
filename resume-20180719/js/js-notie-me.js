@@ -1,5 +1,10 @@
+var _isSubmiting = false;
 $("#submit").click(function() {
 
+	if(_isSubmiting == true) {
+		alert("正在保存，请勿重复提交");
+		return;
+	}
 	var namej = $(this).parent().find("input[name='name']");
 	var emailj = $(this).parent().find("input[name='email']");
 	var phoneJ = $(this).parent().find("input[name='phone']");
@@ -19,7 +24,7 @@ $("#submit").click(function() {
 	url += "dev/public/service/mail/mailsender"; //jiangjiesheng.com下的服务
 	//ispost 转发的话就不会再加跨域头了
 	//由于从腾讯云转发到阿里云，中间配置去掉域名和ip，导致post参数不能中转
-
+	_isSubmiting = true;
 	$.ajax({
 		url: url,
 		dataType: "json",
@@ -31,6 +36,7 @@ $("#submit").click(function() {
 			ispost: "true"
 		},
 		success: function(res) {
+			_isSubmiting = false;
 			if(res.code == 200) {
 				namej.val(null);
 				emailj.val(null);
@@ -43,6 +49,9 @@ $("#submit").click(function() {
 			} else {
 				alert("抱歉:提交失败!(" + res.message + ")");
 			}
+		},error:function(){
+			_isSubmiting = false;
+			alert("抱歉:提交失败!(服务器内部错误)");
 		}
 	});
 
