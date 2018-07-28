@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<title>关于我-老小江-GitHub的个人主页</title>
 		<!--mobile apps-->
@@ -49,7 +48,7 @@
 		<!--//end-smooth-scrolling-->
 	</head>
 
-	<body>
+	<body  oncontextmenu="return false" ondragstart="return false" onselectstart ="return false" onselect="document.selection.empty()" oncopy="document.selection.empty()" onbeforecopy="return false">
 		<!--banner-->
 		<div id="home" class="banner">
 			<div class="banner-info">
@@ -93,10 +92,11 @@
 							<li>
 								<ul class="address-text">
 									<li><b>简历</b></li>
-									<!-- download="江节胜的简历-全栈开发-2018年.pdf" 下载地址见服务器aboutme/目录-->
 									<li>
-										<a href="http://www.jiangjiesheng.com/dev/public/service/pdf-reader.js/?url=my-resume" target="_blank" style="text-decoration: underline;cursor: pointer;">在线预览</a>&nbsp;&nbsp;
-										<a onclick="javascript:alert('暂时关闭下载通道');return;" target="_blank" style="text-decoration: underline;cursor: pointer;">下载电子版</a>
+										<!--<a href="http://www.jiangjiesheng.com/dev/public/service/pdf-reader.js/?url=my-resume" target="_blank" style="text-decoration: underline;cursor: pointer;">在线预览</a>&nbsp;&nbsp;-->
+										<a onclick="javascript:alert('抱歉，暂时关闭预览通道');return;" target="_blank" style="text-decoration: underline;cursor: pointer;">在线预览</a>&nbsp;&nbsp;
+										<!-- download="江节胜的简历-全栈开发-2018年.pdf" 下载地址见服务器aboutme/目录-->
+										<a onclick="javascript:alert('抱歉，暂时关闭下载通道');return;" target="_blank" style="text-decoration: underline;cursor: pointer;">下载电子版</a>
 									</li>
 								</ul>
 							</li>
