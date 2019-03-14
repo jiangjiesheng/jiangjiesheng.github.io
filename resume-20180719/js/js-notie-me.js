@@ -20,8 +20,8 @@ $("#submit").click(function() {
 	}
 	var _message = "姓名：" + name + "</br>邮箱=" + email + "</br>手机号=" + phone + "</br>留言=" + message;
 	//?token=gits-pages-contacts-me&website=Git主页数据提交&message=内容&time=20180723";
-	var url = "https://api.jiangjiesheng.cn/api/jiangjiesheng.com/"; //api.jiangjiesheng.cn/ 专用https转发一下同时处理跨域
-	url += "dev/public/service/mail/mailsender"; //jiangjiesheng.com下的服务
+	var url = "https://api.jiangjiesheng.cn/api/jiangjiesheng.cn/"; //api.jiangjiesheng.cn/ 专用https转发一下同时处理跨域
+	url += "dev/public/service/mail/mailsender"; //jiangjiesheng.cn下的服务
 	//ispost 转发的话就不会再加跨域头了
 	//由于从腾讯云转发到阿里云，中间配置去掉域名和ip，导致post参数不能中转
 	_isSubmiting = true;

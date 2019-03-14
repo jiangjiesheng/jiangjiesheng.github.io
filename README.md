@@ -60,4 +60,4 @@
 - Gitee码云Pages主页：  [https://jiangjiesheng.gitee.io](https://jiangjiesheng.gitee.io "Gitee码云Pages主页")   (响应快)
 - GitHub Pages主页： [https://jiangjiesheng.github.io](https://jiangjiesheng.github.io "GitHub Pages主页")    (响应慢)
 
-- [Git-在GitHub或码云上搭建预览项目或个人主页-Git同时提交到多个远程仓库](http://www.jiangjiesheng.com/weball/185.html "个人网站地址")
+- [Git-在GitHub或码云上搭建预览项目或个人主页-Git同时提交到多个远程仓库](http://tech.jiangjiesheng.cn/weball/185.html "个人网站地址")

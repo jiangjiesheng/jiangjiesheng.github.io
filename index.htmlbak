@@ -17,8 +17,8 @@
 			}
 		</script>
 		
-		<link rel="icon" href="http://jiangjiesheng.com/favicon.ico" type="image/x-icon" />
-		<link rel="shortcut icon" href="http://jiangjiesheng.com/favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="http://jiangjiesheng.cn/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="http://jiangjiesheng.cn/favicon.ico" type="image/x-icon" />
 
 		<!--mobile apps-->
 		<!--Custom Theme files-->
@@ -594,7 +594,7 @@
 		<div class="footer">
 			<div class="container">
 				<p>Copyright &copy; 2019.Company name All rights reserved.
-					<a href="http://www.jiangjiesheng.com/" style="color: white;" target="_blank" title="胜行天下网">jiangjiesheng.com 胜行天下网</a>
+					<a href="http://tech.jiangjiesheng.cn/" style="color: white;" target="_blank" title="胜行天下网">jiangjiesheng.cn 胜行天下网</a>
 				</p>
 			</div>
 		</div>
