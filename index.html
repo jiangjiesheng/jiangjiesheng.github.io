@@ -551,7 +551,7 @@
 		<!--footer-->
 		<div class="footer">
 			<div class="container">
-				<p>Copyright &copy;2020 
+				<p>Copyright &copy;<span id="year"> </span> 
 					<a href="http://tech.jiangjiesheng.cn/" style="color: white;" target="_blank" title="胜行天下网">jiangjiesheng.cn 胜行天下网</a>&nbsp;&nbsp;
 				</p>
 				<p>All rights reserved.</p>
@@ -561,7 +561,9 @@
 		<!--smooth-scrolling-of-move-up-->
 		<script type="text/javascript">
 			$(document).ready(function() {
-
+				
+				$("#year").text(new Date().getYear());
+				
 				var defaults = {
 					containerID: 'toTop', // fading element id
 					containerHoverID: 'toTopHover', // fading element hover id
